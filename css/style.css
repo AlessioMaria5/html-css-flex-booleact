@@ -90,22 +90,26 @@ button:first-child {
 
 /* MAIN MAIN MAIN MAIN MAIN MAIN */
 
-.corsi {
+main {
 
     display: flex;
     justify-content: center;
-    flex-direction: row;
-
-  
-
-
 }
 
-.corsi img {
+.corsi {
 
-    width: 30%;
-    height: 30%;
-    margin: 10px;
+    width: 300px;
+    height: 500px;
+    background-color: blue;
+    margin: 20px;
+    display: flex;
+}
+
+
+
+.corsi:hover {
+
+    background-color: blue;
 }
 
 
