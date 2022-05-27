@@ -5,12 +5,25 @@
     box-sizing: border-box;
 }
 
+body {
+
+    background-image: url(../img/background.jpeg);
+    
+}
+
 /* HEADER HEADER HEADER HEADER HEADER */
 
 header {
 
-    height: 250px;
+    height: 150px;
+    width: 100%;
     border-bottom: 2px grey;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 10px;
+
+
 }
 
 header img {
@@ -19,3 +32,81 @@ header img {
     width: 100px;
 
 }
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    color:white;
+
+   
+
+
+}
+
+.logo span {
+
+    font-size: 20px;
+    margin-left: 10px;
+} 
+
+.menu {
+
+    display: flex;
+    width: calc(100% / 3);
+    justify-content: space-between;
+}
+
+a[href] {
+
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: font-family: 'Fredoka One', cursive;
+    font-family: 'Macondo', cursive;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.login button {
+
+    
+    background-color: rgb(118, 190, 118); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+button:first-child {
+
+    background-color: white;
+    color: green;
+}
+/** HEADER HEADER HEADER END END END */
+
+
+/* MAIN MAIN MAIN MAIN MAIN MAIN */
+
+.corsi {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+  
+
+
+}
+
+.corsi img {
+
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+}
+
+
+
