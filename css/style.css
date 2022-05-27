@@ -1,0 +1,21 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER HEADER HEADER HEADER HEADER */
+
+header {
+
+    height: 250px;
+    border-bottom: 2px grey;
+}
+
+header img {
+
+    height: 100px;
+    width: 100px;
+
+}
